@@ -1,0 +1,10 @@
+@mixin btn {
+  color: $text-color;
+  background-color: $primary-color;
+  border-radius: 20%;
+}
+
+@mixin btn-change {
+  color: $primary-color;
+  background-color: $btn-color;
+}
